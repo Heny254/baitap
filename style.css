@@ -240,7 +240,6 @@ body {
     margin-bottom: 5px;
     height: 40px;
     overflow: hidden;
-    display: -webkit-box;
     font-weight: 500;
 }
 
@@ -325,61 +324,4 @@ body {
     border-top: 1px solid #444;
     font-size: 14px;
     color: #999;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-    }
-
-    .nav-link {
-        padding: 12px 15px;
-    }
-
-    .product-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        gap: 15px;
-    }
-
-    .slider-image {
-        height: 250px;
-        font-size: 20px;
-    }
-
-    .top-banner-content {
-        gap: 20px;
-    }
-
-    .section-title {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .logo {
-        font-size: 24px;
-    }
-
-    .product-grid {
-        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-        gap: 10px;
-    }
-
-    .product-image {
-        height: 150px;
-        font-size: 13px;
-        padding: 10px;
-    }
-
-    .slider-image {
-        height: 180px;
-        font-size: 16px;
-        padding: 20px;
-    }
-
-    .nav-link {
-        padding: 10px 12px;
-        font-size: 13px;
-    }
 }
